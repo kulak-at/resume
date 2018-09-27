@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #DDD;
+    font-size: 12px;
+    line-height: 1.4em;
+    font-family: "Lato";
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: #191919;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    font-family: Passion One;
+    font-size: 3em;
+    line-height: 1.5em;
+    /* font-weight: bold; */
+    padding: 0.1em 0.5em;
+    border: 8px solid #000;
+    margin: 0 auto 0.2em auto;
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+header h2 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: "Passion One";
+    text-align: center;
+    letter-spacing: 1px;
+    align-items: center;
+    justify-content: center;
+}
+
+.me-summary {
+    display: flex;
+    flex-direction: column;
+}
+
+.me-summary li {
+    flex: 1;
+    padding: 0.5em 0 0.5em 0;
+}
+
+.me-summary li i {
+    font-size: 30px;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+}
+
+/* header h1 .surname {
+    font-weight: bold;
+} */
+
+h1,h2,h3,h4,h5, p {
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.resume {
+    box-sizing: border-box;
+    width: 210mm;
+    margin: 1em auto;
+    background: #FFF;
+    padding: 5mm 0;
+    box-shadow: 0 0 10px #AAA;
+}
+
+.main-sections {
+    margin-left: 5%;
+}
+
+header {
+    margin: 0 5% 2em 5%;
+}
+
+.description-container {
+    display: flex;
+    margin: 2em 0;
+}
+
+.description-container p {
+    flex: 4.5;
+    text-align: justify;
+}
+
+.description-container .img-container {
+    flex: 1;
+    /* clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); */
+    margin-right: 1em;
+}
+
+.description-container img {
+    width: 100%;
+}
+
+.main-sections h1 {
+    background: #195484;
+    color: #FFF;
+    font-family: "Passion One";
+    text-transform: uppercase;
+    font-size: 2em;
+    line-height: 1.2em;
+    padding: 0.1em 0.3em;
+    margin-top: 0.5em;
+}
+
+.main-sections h2 {
+    font-size: 1.8em;
+    font-family: "Passion One";
+    margin-bottom: 0.5em;
+    color: #504f4f;
+}
+
+.main-sections .section-detail {
+    /* border-bottom: 3px solid #666; */
+    padding: 1.5em 0 1em 1em;
+}
+
+.main-sections .section-detail:last-child {
+    border-bottom: 0;
+}
+
+.section-subdetails li {
+    display: flex;
+}
+
+.section-subdetails li .time-range {
+    flex: 0.7;
+}
+
+.time-range {
+    font-family: "Passion One";
+    line-height: 1.4em;
+}
+
+.section-subdetails li .role-info {
+    flex: 3;
+    padding: 0 0 0.8em 0;
+    margin-bottom: 0.2em;
+}
+
+.section-subdetails li .hashtags-info {
+    flex: 1;
+    margin-right: 1.4em;
+    color: #777;
+    font-style: italic;
+    font-size: 0.9em;
+    text-align: right;
+}
+
+.section-subdetails li:last-child .role-info {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.section-subdetails .role-info h3 {
+    font-size: 1.5em;
+    color: #333;
+    padding: 0 0 0.5em 0;
+    font-family: "Oswald";
+}
+
+.role-info {
+    font-family: "Lato";
+}
+
+.side-sections {
+    display: flex;
+}
+
+.side-section {
+    flex: 1;
+}
+
+.side-sections .side-section:first-child ul {
+    margin: 0 0 0;
+}
+
+.simple-list {
+    padding: 1em;
+    font-size: 1.1em;
+}
+
+.simple-list li {
+    padding: 0.5em 0;
+}
+
+.alt-detail-header {
+    display: flex;
+    margin-right: 1em;
+}
+
+.alt-detail-header *:first-child {
+    flex: 1;
+}
+
+.alt-role {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+/* fixme */
+#experience-target .section-detail {
+    border-left: 3px solid #195484;
+}
+
+#experience-target .single-role {
+    position: relative;
+}
+
+#experience-target .single-role::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #195484;
+    position: absolute;
+    left: -19px;
+    top: 3px;
+}
+
+
+@media print {
+    @page {
+        size: A4;
+        margin: 0;
+    }
+
+    body {
+        background: transparent;
+    }
+
+    .resume {
+        background: transparent;
+        box-shadow: none;
+        margin: 0;
+    }
+
+    .side-sections {
+        page-break-before: always;
+        padding-top: 5mm;
+    }
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+}
+
+.header-top-name {
+    flex: 2;
+}
+
+.header-top-details {
+    flex: 1;
+}
