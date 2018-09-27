@@ -8,14 +8,14 @@ const me = {
                     role: 'Developer Evangelist',
                     started: '2018.03',
                     ended: '2018.08',
-                    description: 'New role in the company which meaning I had to shape myself. I have reworked the recruitment process, popularised technologies and solutions used among company in many articles and on the conference, conducted workshops and created internal developer guide.',
+                    description: 'In this new role in the company which I had build myself. Among others, I improved the recruitment process, popularised technologies and solutions used within company through many articles and a conference, conducting workshops and creating internal developer guide.',
                     hashtags: ['writing articles', 'conducting interviews', 'creating developer guide', 'conducting workshops', 'creating and managing business relations']
                 },
                 {
                     role: 'Senior JavaScript Developer',
                     started: '2014.08',
                     ended: '2018.03',
-                    description: 'I have been expanding existing applications as well as creating new solutions from the ground up. Partialy taking roles of Project Manager, Team Lead and Senior Architect. Mentoring Junior Developers.',
+                    description: 'I have been maintaining and ameliorating existing applications as well as creating new solutions from the ground up. Engaging in responsibilities of Project Manager, Team Lead and Senior Architect and mentoring Junior Developers.',
                     hashtags: ['JavaScript', 'Node.js', 'PostgreSQL', 'Redis', 'Docker', 'Webpack', 'AWS', 'React', 'Angular', 'TypeScript', 'Agile']
                 }
             ]
@@ -91,7 +91,7 @@ const me = {
                 role: '3rd place',
                 started: '2018',
                 ended: '',
-                description: 'Mind the Art project. AR solution for museums.'
+                description: 'Mind the Art project - AR solution for museums.'
             }]
         },
         {
@@ -100,7 +100,7 @@ const me = {
                 role: '3rd place',
                 started: '2018',
                 ended: '',
-                description: 'Wall mapping solution for visualzing music using image projectors and Fast Fourier Transform.'
+                description: 'MusicMapper - Wall mapping solution for visualzing music using image projectors and Fast Fourier Transform.'
             }]
         },
         {
@@ -118,7 +118,7 @@ const me = {
                 role: '3rd place',
                 started: '2014',
                 ended: '',
-                description: 'Android game to be used with hardware bluetooth dice'
+                description: 'Android game to be used with hardware bluetooth dice.'
             }]
         },
         {
@@ -127,7 +127,7 @@ const me = {
                 role: '2nd place',
                 started: '2013',
                 ended: '',
-                description: 'Application for google glass'
+                description: 'Shopping list application for Google Glass.'
             }]
         },
         {
@@ -136,7 +136,7 @@ const me = {
                 role: 'Award of Distinction',
                 started: '2011',
                 ended: '',
-                description: 'HTML5 game with geolocation capabilities'
+                description: 'HTML5 game with geolocation capabilities.'
             }]
         }
     ],
@@ -148,7 +148,7 @@ const me = {
                     role: 'Tutor (voulenteer)',
                     started: '2017',
                     ended: 'now',
-                    description: 'Teaching girls basics of JavaScript on one-day-long workshops regular series.'
+                    description: 'Teaching women basics of JavaScript on one-day-long workshops regular series.'
                 }
             ]
         },
@@ -170,7 +170,7 @@ const me = {
                     role: 'Peace Patrol member (voulenteer)',
                     started: '2009',
                     ended: 'now',
-                    description: 'Volunteer in the biggest annual charity fundraising and on Woodstock Festival'
+                    description: 'Volunteering in the biggest annual charity fundraising and on Woodstock Festival.'
                 }
             ]
         },
